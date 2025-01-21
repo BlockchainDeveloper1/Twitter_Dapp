@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from "react";
 import Web3 from "web3";
-import './App.css';
 import contractABI from "./abi.json";
 import Header from "./components/Header";
 import TweetForm from "./components/TweetForm";
@@ -82,6 +81,8 @@ function App() {
 }
 
 export default App;
+
+
 
 
 
